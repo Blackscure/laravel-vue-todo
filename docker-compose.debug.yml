@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  laravelvuetodolist:
+    image: laravelvuetodolist
+    build:
+      context: .
+      dockerfile: ./Dockerfile
